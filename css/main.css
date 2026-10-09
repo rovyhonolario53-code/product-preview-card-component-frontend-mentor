@@ -1,1 +1,27 @@
-/*# sourceMappingURL=main.css.map */
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  min-height: 100vh;
+  display: grid;
+  padding: 1rem;
+  place-items: center;
+  background-color: hsl(30, 38%, 92%);
+}
+
+img {
+  display: block;
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+}/*# sourceMappingURL=main.css.map */

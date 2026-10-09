@@ -1,0 +1,56 @@
+$green-500: hsl(158, 36%, 37%);
+$green-700: hsl(158, 42%, 18%);
+    
+$black: hsl(212, 21%, 14%);
+$grey: hsl(228, 12%, 48%);
+$cream: hsl(30, 38%, 92%);
+$white: hsl(0, 0%, 100%);
+
+$font-heading: "Fraunces", serif;
+$font-body: "Montserrat", sans-serif;
+
+$bp-tablet: 789px;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $font-body;
+    font-size: 14px;
+    min-height: 100vh;
+    display: grid;
+    padding: 1rem;
+    place-items: center;
+    background-color: $cream;
+}
+
+img {
+    display: block;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+@mixin tablet {
+    @media (min-width: $bp-tablet) {
+        @content;
+    }
+}
+
+.card {
+    background-color: $white;
+    border-radius: 10px;
+
+
+
+
+}
+
+
+
+
+
